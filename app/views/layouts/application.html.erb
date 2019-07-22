@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RailsVuejs</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div id="application">
+      <%= yield %>
+    </div>
+  </body>
+</html>

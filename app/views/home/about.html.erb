@@ -1,0 +1,3 @@
+<template>
+  <hello></hello>
+</template>
